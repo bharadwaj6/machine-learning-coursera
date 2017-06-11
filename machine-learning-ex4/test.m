@@ -1,0 +1,1 @@
+m = size(y, 1);Y = zeros(m, num_labels);for j = 1:m  y_new = zeros(num_labels, 1);  y_new(y(j)) = 1;  Y(j, :) = y_new;endfor
